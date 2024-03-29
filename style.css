@@ -1,0 +1,27 @@
+* {
+  font-family: "Raleway", sans-serif !important;
+}
+.our-services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.our-services {
+  width: 25% !important;
+}
+
+.working-process-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .our-services {
+    width: 100% !important;
+  }
+  .working-process {
+    width: 100% !important;
+  }
+}
